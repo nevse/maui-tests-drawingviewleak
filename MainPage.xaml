@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DrawingViewLeak.MainPage">
+    <VerticalStackLayout Spacing="20">
+        <Button Text="Show Page With Leak" Clicked="ShowPageWithLeak" />
+        <Button x:Name="checkButton" Text="Check Leak" Clicked="CheckLeak" />
+    </VerticalStackLayout>
+</ContentPage>
